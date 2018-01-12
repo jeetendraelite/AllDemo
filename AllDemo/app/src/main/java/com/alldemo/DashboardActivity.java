@@ -19,6 +19,7 @@ import com.animation.ActImageAnimation;
 import com.animation.ActBottomTopAnimation;
 import com.animation.ActRightLeftAnimation;
 import com.animation.ActClockwiseAnimation;
+import com.recycler.ActNewsListing;
 
 public class DashboardActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -90,22 +91,28 @@ public class DashboardActivity extends AppCompatActivity
         if (id == R.id.imageAnimation) {
             // Handle the camera action
 
-            Intent intent = new Intent(this, ActImageAnimation.class);
+            Intent intent = new Intent(this, ActNewsListing.class);
+            //Intent intent = new Intent(this, ActImageAnimation.class);
+            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
 
 
         } else if (id == R.id.colorAnimation) {
             Intent intent = new Intent(this, ActColorAnimation.class);
+            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
 
         } else if (id == R.id.bottomTopAnimation) {
             Intent intent = new Intent(this, ActBottomTopAnimation.class);
+            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.rightLeftAnimation) {
             Intent intent = new Intent(this, ActRightLeftAnimation.class);
+            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.clockwiseAnimation) {
             Intent intent = new Intent(this, ActClockwiseAnimation.class);
+            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.nav_send) {
 
