@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.alldemo.R;
+import com.animation.Main2Activity;
 import com.animation.MainActivity;
 
 public class DashboardActivity extends AppCompatActivity
@@ -93,6 +94,9 @@ public class DashboardActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_gallery) {
+            Intent intent = new Intent(this, Main2Activity.class);
+            intent.putExtra("from","sdfvgdfgvl");
+            startActivity(intent);
 
         } else if (id == R.id.nav_slideshow) {
 
