@@ -46,6 +46,8 @@ public class ActNewsListing extends AppCompatActivity {
     @BindView(R.id.materialRefreshLayout)
     MaterialRefreshLayout materialRefreshLayout;
 
+
+
     @BindView(R.id.llNodata)
     LinearLayout llNodata;
 
