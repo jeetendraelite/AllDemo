@@ -87,7 +87,7 @@ public class DashboardActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.imageAnimation) {
             // Handle the camera action
 
             Intent intent = new Intent(this, ActImageAnimation.class);
@@ -95,20 +95,20 @@ public class DashboardActivity extends AppCompatActivity
             startActivity(intent);
 
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.colorAnimation) {
             Intent intent = new Intent(this, ActColorAnimation.class);
             intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.bottomTopAnimation) {
             Intent intent = new Intent(this, ActBottomTopAnimation.class);
             intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.rightLeftAnimation) {
             Intent intent = new Intent(this, ActRightLeftAnimation.class);
             intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.clockwiseAnimation) {
             Intent intent = new Intent(this, ActClockwiseAnimation.class);
             intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);

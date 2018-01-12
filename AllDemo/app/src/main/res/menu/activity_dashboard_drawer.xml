@@ -5,29 +5,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/imageAnimation"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="Image Animation" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/colorAnimation"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Color Animation" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/bottomTopAnimation"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Bottom to Top Animation" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/rightLeftAnimation"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Right to Left Animation" />
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/clockwiseAnimation"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Clock Wise Animation " />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
