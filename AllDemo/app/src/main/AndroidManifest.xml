@@ -19,6 +19,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.animation.MainActivity"
+            android:label="@string/app_name"
+            />
+
+        <activity
+            android:name="com.animation.Main2Activity"
+            android:label="@string/app_name"
+            />
+
+        <activity
+            android:name="com.animation.Main3Activity"
+            android:label="@string/app_name"
+            />
+
+        <activity
+            android:name="com.animation.Main4Activity"
+            android:label="@string/app_name"
+            />
+
+        <activity
+            android:name="com.animation.Main5Activity"
+            android:label="@string/app_name"
+            />
+
     </application>
 
 </manifest>

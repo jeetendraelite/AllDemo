@@ -1,5 +1,6 @@
 package com.alldemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.alldemo.R;
+import com.animation.MainActivity;
 
 public class DashboardActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -84,6 +86,12 @@ public class DashboardActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra("from","sdfvgdfgvl");
+            startActivity(intent);
+
+
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
