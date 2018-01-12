@@ -102,7 +102,6 @@ public class DashboardActivity extends AppCompatActivity
 
         } else if (id == R.id.bottomTopAnimation) {
             Intent intent = new Intent(this, ActBottomTopAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.rightLeftAnimation) {
             Intent intent = new Intent(this, ActRightLeftAnimation.class);
@@ -113,7 +112,9 @@ public class DashboardActivity extends AppCompatActivity
             intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.nav_send) {
-
+            Intent intent = new Intent(this, ActImageTransitionAnimation.class);
+            intent.putExtra("from","sdfvgdfgvl");
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.alldemo.DashboardActivity"
+            android:name=".DashboardActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,32 +19,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name="com.animation.ActImageAnimation"
-            android:label="@string/app_name"
-            />
-
+            android:label="@string/app_name" />
         <activity
             android:name="com.animation.ActColorAnimation"
-            android:label="@string/app_name"
-            />
-
+            android:label="@string/app_name" />
         <activity
             android:name="com.animation.ActBottomTopAnimation"
-            android:label="@string/app_name"
-            />
-
+            android:label="@string/app_name" />
         <activity
             android:name="com.animation.ActRightLeftAnimation"
-            android:label="@string/app_name"
-            />
-
+            android:label="@string/app_name" />
         <activity
             android:name="com.animation.ActClockwiseAnimation"
-            android:label="@string/app_name"
-            />
-
+            android:label="@string/app_name" />
     </application>
 
 </manifest>
