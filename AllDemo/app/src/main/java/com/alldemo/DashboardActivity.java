@@ -14,9 +14,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.alldemo.R;
-import com.animation.Main2Activity;
-import com.animation.MainActivity;
+import com.animation.ActColorAnimation;
+import com.animation.ActImageAnimation;
+import com.animation.ActBottomTopAnimation;
+import com.animation.ActRightLeftAnimation;
+import com.animation.ActClockwiseAnimation;
 
 public class DashboardActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -88,22 +90,28 @@ public class DashboardActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
 
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, ActImageAnimation.class);
             intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
 
 
         } else if (id == R.id.nav_gallery) {
-            Intent intent = new Intent(this, Main2Activity.class);
+            Intent intent = new Intent(this, ActColorAnimation.class);
             intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
 
         } else if (id == R.id.nav_slideshow) {
-
+            Intent intent = new Intent(this, ActBottomTopAnimation.class);
+            intent.putExtra("from","sdfvgdfgvl");
+            startActivity(intent);
         } else if (id == R.id.nav_manage) {
-
+            Intent intent = new Intent(this, ActRightLeftAnimation.class);
+            intent.putExtra("from","sdfvgdfgvl");
+            startActivity(intent);
         } else if (id == R.id.nav_share) {
-
+            Intent intent = new Intent(this, ActClockwiseAnimation.class);
+            intent.putExtra("from","sdfvgdfgvl");
+            startActivity(intent);
         } else if (id == R.id.nav_send) {
 
         }

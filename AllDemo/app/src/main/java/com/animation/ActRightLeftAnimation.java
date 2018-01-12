@@ -11,7 +11,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.alldemo.R;
 
-public class Main4Activity extends AppCompatActivity {
+public class ActRightLeftAnimation extends AppCompatActivity {
 
     @BindView(R.id.img1)
     ImageView img;
@@ -23,7 +23,7 @@ public class Main4Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main4);
+        setContentView(R.layout.act_right_left_animation);
         ButterKnife.bind(this);
 
         TranslateAnimation translateAnimation= new TranslateAnimation(500f,0f,-400f,0f);
@@ -43,7 +43,7 @@ public class Main4Activity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    Intent intent = new Intent(Main4Activity.this,MainActivity.class);
+                    Intent intent = new Intent(ActRightLeftAnimation.this,ActImageAnimation.class);
                     startActivity(intent);
                 }
 

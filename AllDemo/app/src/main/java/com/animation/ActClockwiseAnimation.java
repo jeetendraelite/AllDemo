@@ -15,7 +15,7 @@ import com.alldemo.R;
 
 // Code for ClockWise Animation.
 
-public class Main5Activity extends AppCompatActivity {
+public class ActClockwiseAnimation extends AppCompatActivity {
 
     @BindView(R.id.img2)
     ImageView imageView;
@@ -26,13 +26,13 @@ public class Main5Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
+        setContentView(R.layout.act_clockwise_animation);
         ButterKnife.bind(this);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Animation animation= AnimationUtils.loadAnimation(Main5Activity.this,R.anim.anim_clockwise);
+                Animation animation= AnimationUtils.loadAnimation(ActClockwiseAnimation.this,R.anim.anim_clockwise);
                 imageView.startAnimation(animation);
 
             }

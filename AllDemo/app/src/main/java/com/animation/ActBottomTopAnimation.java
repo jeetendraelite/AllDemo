@@ -11,7 +11,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.alldemo.R;
 
-public class Main3Activity extends AppCompatActivity {
+public class ActBottomTopAnimation extends AppCompatActivity {
 
 
    @BindView(R.id.animImage)
@@ -21,7 +21,7 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.act_bottom_top_animation);
         ButterKnife.bind(this);
 
 
@@ -38,7 +38,7 @@ public class Main3Activity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    Intent intent = new Intent(Main3Activity.this,MainActivity.class);
+                    Intent intent = new Intent(ActBottomTopAnimation.this,ActImageAnimation.class);
                     startActivity(intent);
                 }
 

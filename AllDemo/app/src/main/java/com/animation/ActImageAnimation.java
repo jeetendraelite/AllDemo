@@ -10,7 +10,7 @@ import butterknife.ButterKnife;
 import com.alldemo.R;
 
 
-public class MainActivity extends AppCompatActivity {
+public class ActImageAnimation extends AppCompatActivity {
 
    @BindView(R.id.layout1)
    LinearLayout linearLayout;
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.act_image_animation);
         ButterKnife.bind(this);
         linearLayout.setBackgroundResource(R.drawable.animation);
 

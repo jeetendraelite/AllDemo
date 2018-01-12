@@ -11,7 +11,7 @@ import com.alldemo.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class Main2Activity extends AppCompatActivity {
+public class ActColorAnimation extends AppCompatActivity {
 
     @BindView(R.id.layout2)
     LinearLayout linearLayout;
@@ -20,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.act_color_animation);
         ButterKnife.bind(this);
 
         linearLayout.setBackgroundResource(R.drawable.animation_color);
@@ -34,7 +34,7 @@ public class Main2Activity extends AppCompatActivity {
                   e.printStackTrace();
                }
                finally {
-                   Intent intent = new Intent(Main2Activity.this,MainActivity.class);
+                   Intent intent = new Intent(ActColorAnimation.this,ActImageAnimation.class);
                    startActivity(intent);
                }
 
