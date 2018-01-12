@@ -91,13 +91,11 @@ public class DashboardActivity extends AppCompatActivity
             // Handle the camera action
 
             Intent intent = new Intent(this, ActImageAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
 
 
         } else if (id == R.id.colorAnimation) {
             Intent intent = new Intent(this, ActColorAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
 
         } else if (id == R.id.bottomTopAnimation) {
@@ -105,16 +103,12 @@ public class DashboardActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.rightLeftAnimation) {
             Intent intent = new Intent(this, ActRightLeftAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.clockwiseAnimation) {
             Intent intent = new Intent(this, ActClockwiseAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.nav_send) {
-            Intent intent = new Intent(this, ActImageTransitionAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
-            startActivity(intent);
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
