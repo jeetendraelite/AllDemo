@@ -197,12 +197,7 @@ public class ActNewsListing extends AppCompatActivity {
         try {
 
             App.showLog("=======setStaticData===");
-            //111 arrayListArticlesModel = categoryArticleListResponse.arrayListPEArticleModel;
-            //arrayListArticlesModel = StaticDataList.getPEArticleList2();
 
-           /* if(categoryArticleListResponse !=null && categoryArticleListResponse.arrayListPEArticleModel!=null) {
-                arrayListArticlesModel.addAll(categoryArticleListResponse.arrayListPEArticleModel);
-            }*/
             if (arrayListArticlesModel != null && arrayListArticlesModel.size() > 0) {
 
                 llNodata.setVisibility(View.GONE);
@@ -317,15 +312,9 @@ public class ActNewsListing extends AppCompatActivity {
                             mArrListmPEArticleModel.get(i).title = "0";
                             if (mArrListmPEArticleModel.get(i) != null && mArrListmPEArticleModel.get(i).title != null) {
 
-                               /* if (asyncRemovedSavedContent(mArrListmPEArticleModel.get(i).id, AppFlags.tagContentType_articles) == true) {
-
-                                }*/
                             }
                         } else {
                             mArrListmPEArticleModel.get(i).title = "1";
-                          /*  if (asyncSetSavedContent(mArrListmPEArticleModel.get(i).id, AppFlags.tagContentType_articles) == true) {
-
-                            }*/
                         }
 
                         dataListAdapter.notifyDataSetChanged();
@@ -348,9 +337,7 @@ public class ActNewsListing extends AppCompatActivity {
 
             if (App.isInternetAvail(ActNewsListing.this)) {
                 if (mArrListmPEArticleModel.get(position).title != null) {
-                    // 1- App.OP_NOTI_READ
-                    // 2- App.OP_NOTI_DELETE
-                    // asyncReadDeleteNotification(App.OP_NOTI_DELETE, mArrListmPEArticleModel.get(position).addr_id);
+
                 }
                 mArrListmPEArticleModel.remove(position);
                 notifyItemRemoved(position);
