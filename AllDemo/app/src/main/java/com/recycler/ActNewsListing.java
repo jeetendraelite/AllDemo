@@ -39,7 +39,6 @@ import static java.security.AccessController.getContext;
 
 public class ActNewsListing extends AppCompatActivity {
 
-
     @BindView(R.id.progressBar)
     ProgressBar progressBar;
     
