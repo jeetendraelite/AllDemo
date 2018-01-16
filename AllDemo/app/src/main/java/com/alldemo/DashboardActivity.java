@@ -19,6 +19,9 @@ import com.animation.ActImageAnimation;
 import com.animation.ActBottomTopAnimation;
 import com.animation.ActRightLeftAnimation;
 import com.animation.ActClockwiseAnimation;
+import com.bottomsheet.BottomSheetActivity;
+import com.misc.IONActivity;
+import com.misc.NavigationBottomActivity;
 import com.recycler.ActNewsListing;
 
 public class DashboardActivity extends AppCompatActivity
@@ -115,7 +118,16 @@ public class DashboardActivity extends AppCompatActivity
             intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.nav_send) {
-
+            Intent intent = new Intent(this, IONActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.Bottomsheet) {
+            Intent intent = new Intent(this, BottomSheetActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.bottom_navigation) {
+            Intent intent = new Intent(this, NavigationBottomActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

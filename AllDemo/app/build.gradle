@@ -34,8 +34,6 @@ dependencies {
     // multi dex error resolve
     compile 'com.android.support:multidex:1.0.2'
 
-
-
     // for the butter knife  find id and click
 
     implementation 'com.jakewharton:butterknife:8.5.1'

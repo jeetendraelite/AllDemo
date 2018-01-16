@@ -33,9 +33,13 @@
                 android:icon="@drawable/ic_menu_send"
                 android:title="Send" />
             <item
-                android:id="@+id/nav_send2"
+                android:id="@+id/Bottomsheet"
                 android:icon="@drawable/ic_offline_pin_pink_800_36dp"
-                android:title="5285" />
+                android:title="BottomSheet" />
+            <item
+                android:id="@+id/navigation_Bottom"
+                android:icon="@drawable/ic_offline_pin_pink_800_36dp"
+                android:title="Bottom Navigation" />
         </menu>
     </item>
 
