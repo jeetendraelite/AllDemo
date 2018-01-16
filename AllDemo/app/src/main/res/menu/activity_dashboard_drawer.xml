@@ -20,27 +20,24 @@
             android:id="@+id/rightLeftAnimation"
             android:icon="@drawable/ic_menu_manage"
             android:title="Right to Left Animation" />
+        <item
+            android:id="@+id/clockwiseAnimation"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Clock Wise Animation " />
+        <item
+            android:id="@+id/ion_eg"
+            android:icon="@drawable/ic_menu_send"
+            android:title="ION Libraray Test" />
+        <item
+            android:id="@+id/Bottomsheet"
+            android:icon="@drawable/ic_offline_pin_pink_800_36dp"
+            android:title="BottomSheet" />
+        <item
+            android:id="@+id/navigation_Bottom"
+            android:icon="@drawable/ic_offline_pin_pink_800_36dp"
+            android:title="Bottom Navigation" />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/clockwiseAnimation"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Clock Wise Animation " />
-            <item
-                android:id="@+id/ion_eg"
-                android:icon="@drawable/ic_menu_send"
-                android:title="ION Libraray Test" />
-            <item
-                android:id="@+id/Bottomsheet"
-                android:icon="@drawable/ic_offline_pin_pink_800_36dp"
-                android:title="BottomSheet" />
-            <item
-                android:id="@+id/navigation_Bottom"
-                android:icon="@drawable/ic_offline_pin_pink_800_36dp"
-                android:title="Bottom Navigation" />
-        </menu>
-    </item>
+
 
 </menu>

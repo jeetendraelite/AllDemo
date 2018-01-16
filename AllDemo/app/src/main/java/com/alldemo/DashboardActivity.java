@@ -94,7 +94,7 @@ public class DashboardActivity extends AppCompatActivity
         if (id == R.id.imageAnimation) {
             // Handle the camera action
 
-            Intent intent = new Intent(this, ActNewsListing.class);
+            Intent intent = new Intent(this, ActImageAnimation.class);
             //Intent intent = new Intent(this, ActImageAnimation.class);
             startActivity(intent);
 
