@@ -96,28 +96,23 @@ public class DashboardActivity extends AppCompatActivity
 
             Intent intent = new Intent(this, ActNewsListing.class);
             //Intent intent = new Intent(this, ActImageAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
 
 
         } else if (id == R.id.colorAnimation) {
             Intent intent = new Intent(this, ActColorAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
 
         } else if (id == R.id.bottomTopAnimation) {
             Intent intent = new Intent(this, ActBottomTopAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.rightLeftAnimation) {
             Intent intent = new Intent(this, ActRightLeftAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
         } else if (id == R.id.clockwiseAnimation) {
             Intent intent = new Intent(this, ActClockwiseAnimation.class);
-            intent.putExtra("from","sdfvgdfgvl");
             startActivity(intent);
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.ion_eg) {
             Intent intent = new Intent(this, IONActivity.class);
             startActivity(intent);
         }
@@ -125,7 +120,7 @@ public class DashboardActivity extends AppCompatActivity
             Intent intent = new Intent(this, BottomSheetActivity.class);
             startActivity(intent);
         }
-        else if (id == R.id.bottom_navigation) {
+        else if (id == R.id.navigation_Bottom) {
             Intent intent = new Intent(this, NavigationBottomActivity.class);
             startActivity(intent);
         }
