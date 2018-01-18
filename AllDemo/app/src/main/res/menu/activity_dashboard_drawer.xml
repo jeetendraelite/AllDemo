@@ -36,6 +36,14 @@
             android:id="@+id/navigation_Bottom"
             android:icon="@drawable/ic_offline_pin_pink_800_36dp"
             android:title="Bottom Navigation" />
+        <item
+            android:id="@+id/chooser_share"
+            android:icon="@drawable/ic_offline_pin_pink_800_36dp"
+            android:title="Sharing Content on Social Media" />
+        <item
+            android:id="@+id/date_timepicker"
+            android:icon="@drawable/ic_offline_pin_pink_800_36dp"
+            android:title="Date and Time Picker" />
     </group>
 
 

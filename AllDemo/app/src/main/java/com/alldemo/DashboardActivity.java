@@ -14,6 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.ChooserShareBUtton.ChooserShareActivity;
+import com.DateTimePicker.DateTimeActivity;
 import com.animation.ActColorAnimation;
 import com.animation.ActImageAnimation;
 import com.animation.ActBottomTopAnimation;
@@ -122,6 +124,14 @@ public class DashboardActivity extends AppCompatActivity
         }
         else if (id == R.id.navigation_Bottom) {
             Intent intent = new Intent(this, NavigationBottomActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.chooser_share) {
+            Intent intent = new Intent(this, ChooserShareActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.date_timepicker) {
+            Intent intent = new Intent(this, DateTimeActivity.class);
             startActivity(intent);
         }
 

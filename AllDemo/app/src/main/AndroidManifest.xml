@@ -17,7 +17,11 @@
             android:name=".DashboardActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.animation.ActImageAnimation"
@@ -40,13 +44,11 @@
         <activity android:name="com.recycler.ActNewsListing" />
         <activity android:name="com.misc.IONActivity" />
         <activity android:name="com.bottomsheet.BottomSheetActivity" />
-        <activity android:name="com.misc.ProgressActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name="com.misc.ProgressActivity"></activity>
+        <activity android:name="com.DateTimePicker.DateTimeActivity">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+        <activity android:name="com.ChooserShareBUtton.ChooserShareActivity"></activity>
     </application>
 
 </manifest>
