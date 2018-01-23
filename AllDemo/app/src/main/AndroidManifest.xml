@@ -44,11 +44,14 @@
         <activity android:name="com.recycler.ActNewsListing" />
         <activity android:name="com.misc.IONActivity" />
         <activity android:name="com.bottomsheet.BottomSheetActivity" />
-        <activity android:name="com.misc.ProgressActivity"></activity>
-        <activity android:name="com.DateTimePicker.DateTimeActivity">
+        <activity android:name="com.misc.ProgressActivity" />
+        <activity android:name="com.DateTimePicker.DateTimeActivity" />
+        <activity android:name="com.ChooserShareBUtton.ChooserShareActivity" />
+        <activity android:name="com.AudioVideo.AudioVideoActivity" />
 
-        </activity>
-        <activity android:name="com.ChooserShareBUtton.ChooserShareActivity"></activity>
+        <activity android:name=".ActVideoPlayer"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

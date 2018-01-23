@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.AudioVideo.AudioVideoActivity;
 import com.ChooserShareBUtton.ChooserShareActivity;
 import com.DateTimePicker.DateTimeActivity;
 import com.animation.ActColorAnimation;
@@ -24,7 +25,6 @@ import com.animation.ActClockwiseAnimation;
 import com.bottomsheet.BottomSheetActivity;
 import com.misc.IONActivity;
 import com.misc.NavigationBottomActivity;
-import com.recycler.ActNewsListing;
 
 public class DashboardActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -35,6 +35,9 @@ public class DashboardActivity extends AppCompatActivity
         setContentView(R.layout.activity_dashboard);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
+      // startActivity(new Intent(this, ActVideoPlayer.class));
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -132,6 +135,10 @@ public class DashboardActivity extends AppCompatActivity
         }
         else if (id == R.id.date_timepicker) {
             Intent intent = new Intent(this, DateTimeActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.video_stream) {
+            Intent intent = new Intent(this, ActVideoPlayer.class);
             startActivity(intent);
         }
 

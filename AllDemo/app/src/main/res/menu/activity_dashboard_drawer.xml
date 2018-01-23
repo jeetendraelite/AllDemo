@@ -44,6 +44,11 @@
             android:id="@+id/date_timepicker"
             android:icon="@drawable/ic_offline_pin_pink_800_36dp"
             android:title="Date and Time Picker" />
+        <item
+            android:id="@+id/video_stream"
+            android:icon="@drawable/ic_offline_pin_pink_800_36dp"
+            android:title="Video Streaming" />
+
     </group>
 
 
