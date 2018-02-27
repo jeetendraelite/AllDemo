@@ -1,7 +1,9 @@
-package com.alldemo;
+package com.AudioVideo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.alldemo.R;
 
 import cn.jzvd.JZVideoPlayer;
 import cn.jzvd.JZVideoPlayerStandard;

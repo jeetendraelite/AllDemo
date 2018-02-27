@@ -14,7 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.AudioVideo.AudioVideoActivity;
+import com.AudioVideo.ActAudioActivity;
+import com.AudioVideo.ActVideoPlayer;
 import com.ChooserShareBUtton.ChooserShareActivity;
 import com.DateTimePicker.DateTimeActivity;
 import com.animation.ActColorAnimation;
@@ -23,6 +24,7 @@ import com.animation.ActBottomTopAnimation;
 import com.animation.ActRightLeftAnimation;
 import com.animation.ActClockwiseAnimation;
 import com.bottomsheet.BottomSheetActivity;
+import com.misc.ActForResultDemo;
 import com.misc.IONActivity;
 import com.misc.NavigationBottomActivity;
 
@@ -139,6 +141,13 @@ public class DashboardActivity extends AppCompatActivity
         }
         else if (id == R.id.video_stream) {
             Intent intent = new Intent(this, ActVideoPlayer.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.audio_stream) {
+            Intent intent = new Intent(this, ActAudioActivity.class);
+            startActivity(intent);
+        }else if (id == R.id.Activity_For_Result) {
+            Intent intent = new Intent(this, ActForResultDemo.class);
             startActivity(intent);
         }
 

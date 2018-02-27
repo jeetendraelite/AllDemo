@@ -48,6 +48,15 @@
             android:id="@+id/video_stream"
             android:icon="@drawable/ic_offline_pin_pink_800_36dp"
             android:title="Video Streaming" />
+        <item
+            android:id="@+id/audio_stream"
+            android:icon="@drawable/ic_offline_pin_pink_800_36dp"
+            android:title="Audio Play" />
+  <item
+            android:id="@+id/Activity_For_Result"
+            android:icon="@drawable/ic_offline_pin_pink_800_36dp"
+            android:title=" on ActivityResult Demo" />
+
 
     </group>
 

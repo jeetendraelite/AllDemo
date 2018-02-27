@@ -47,11 +47,13 @@
         <activity android:name="com.misc.ProgressActivity" />
         <activity android:name="com.DateTimePicker.DateTimeActivity" />
         <activity android:name="com.ChooserShareBUtton.ChooserShareActivity" />
-        <activity android:name="com.AudioVideo.AudioVideoActivity" />
-
-        <activity android:name=".ActVideoPlayer"
+        <activity
+            android:name="com.AudioVideo.ActVideoPlayer"
             android:configChanges="orientation|screenSize|keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
+        <activity android:name="com.AudioVideo.ActAudioActivity" />
+        <activity android:name="com.misc.ActForResultDemo" />
+        <activity android:name="com.misc.ResultActivity"></activity>
     </application>
 
 </manifest>
